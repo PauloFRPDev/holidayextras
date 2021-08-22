@@ -42,6 +42,8 @@ function ListUsers() {
 
     const updatedUsers = users.filter((user) => user.id !== user_id);
 
+    console.log("oi");
+
     setUsers(updatedUsers);
   };
 
