@@ -29,11 +29,11 @@
 
 </br>
 
-## 💇🏻‍♂️ About the project
+## About the project
 
 This is a project for the Holidayextras task. In this project, I made an api with node where I implemented the following funcionalities: Create, read, update and delete (CRUD) users. Besides, created a Frontend with react to consume that API.
 
-## 🚀 Repositories
+## Repositories
 
 Node API Repository (with all the commits): https://github.com/PauloFRPDev/holidayextras-developer-api-task
 React Frontend Repository (with all the commits): https://github.com/PauloFRPDev/holidayextras-developer-web
