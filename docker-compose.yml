@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./server
+      dockerfile: ./Dockerfile
+    image: "holidayextras/holidayextras-backend"
+    ports:
+      - "3333:3333"
+  frontend:
+    build:
+      context: ./web
+      dockerfile: ./Dockerfile
+    image: "holidayextras/holidayextras-frontend"
+    ports:
+      - "3000:3000"
+    links:
+      - "backend:be"
