@@ -1,5 +1,5 @@
 <h3 align="center">
-  HolidayExtras
+  HolidayExtras 2
 </h3>
 
 <p align="center">
